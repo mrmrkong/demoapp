@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  size: 1
+  owner: MyString
+  location: MyString
+  note: MyString
+
+two:
+  name: MyString
+  size: 1
+  owner: MyString
+  location: MyString
+  note: MyString

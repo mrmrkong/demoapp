@@ -1,0 +1,20 @@
+<h2>Index</h2>
+
+<table>
+	<thead>
+		<tr>
+			<td>ID</td>
+			<td>Name</td>
+			<td>Edit</td>
+		</tr>
+	</thead>
+	<tbody>
+		<% @home.each do |u| %>
+		<tr>
+			<td><%= u.id %></td>
+			<td><%= u.name %></td>
+			<td><%= link_to "Edit Home", edit_home_path(u.id) %></td>
+		</tr>
+		<% end %>
+	</tbody>
+</table>
