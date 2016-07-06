@@ -1,8 +1,9 @@
 Testapp::Application.routes.draw do
   
+  root to: 'homes#index'
   resources :homes
   
-  root to: 'homes#new'
+  
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
