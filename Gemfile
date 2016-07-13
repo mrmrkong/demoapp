@@ -20,6 +20,7 @@ group :assets do
   
 group :production do
   gem 'pg', '0.12.2'
+  gem 'rails_12factor'
 end
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
