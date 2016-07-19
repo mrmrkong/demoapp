@@ -1,11 +1,17 @@
 To run test:
 
 -> run command "bundle install"
+
 -> run command "rake db:test:prepare"
+
 -> got to spec/features/edit_home_spec.rb
+
 -> uncomment the "create new home" example, and comment out "edit home" and "check home name"
+
 -> run command "rspec spec/features" in terminal to create new home
+
 -> uncomment the  example "edit home" and "check home name", and comment out "create new home"
+
 -> run command "rspec spec/features" in terminal to run test. A browser window should pop out and run the actions written on the test script
 
 
