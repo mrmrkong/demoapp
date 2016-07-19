@@ -2,7 +2,23 @@ To run test:
 
 -> run command "bundle install"
 -> run command "rake db:test:prepare"
--> run command "rspec spec/features"
+-> got to spec/features/edit_home_spec.rb
+-> uncomment the "create new home" example, and comment out "edit home" and "check home name"
+-> run command "rspec spec/features" in terminal to create new home
+-> uncomment the  example "edit home" and "check home name", and comment out "create new home"
+-> run command "rspec spec/features" in terminal to run test. A browser window should pop out and run the actions written on the test script
+
+
 
 Test included now:
-- visit home page
+- create new home with Name = Test Home, and Size = 100
+- Go to edit page
+- Fill in Name = Copied Name and Size = 200 into the form in Tab1
+- Click on copy button
+- Click update form in Tab2
+- Check if Name and Size are copied
+
+Remark:
+- the "rake db:test:prepare" command needs to be run after each test, since the name and size are changed, and so as the create new home process
+
+
